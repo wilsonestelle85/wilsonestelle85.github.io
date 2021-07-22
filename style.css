@@ -1,0 +1,59 @@
+.frame{
+border: 2px solid red;
+height: 300px;
+/* width:80%; */
+/* width: 80%; */
+overflow: hidden;
+}
+
+.slidewrapper{
+/* border: 2px solid blue; */
+width: 400%;
+height: 100%;
+/* display: flex; */
+animation: slideshow 10s;
+}
+
+
+.slide{
+text-align: center;
+height: 100%;
+width: 25%;
+float: left;
+padding-top: 3%;
+font-size: 24px;
+
+}
+
+
+.p1{
+  background-color: pink;
+}
+
+.p2{
+    background-color: orange;
+}
+
+.p3
+{
+    background-color: green;
+}
+.p4{
+    background-color: powderblue;
+}
+
+
+
+@keyframes slideshow {
+
+0%  {margin-left: 0%;  }
+
+25% {margin-left: -100%; }
+
+50% {margin-left: -200%; }
+
+75% {margin-left: -300%; }
+
+100% {margin-left: -300%; }
+
+}
