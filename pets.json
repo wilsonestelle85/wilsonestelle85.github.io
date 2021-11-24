@@ -1,0 +1,29 @@
+[
+    {
+        "petID": 1,
+        "name": "Fluffy",
+        "age": 1,
+        "species": "Rabbit",
+        "color": "white",
+        "hobby": "Jump",
+        "ownerID": 101
+    },
+    {
+        "petID": 2,
+        "name": "Meaw",
+        "age": 8,
+        "species": "Cat",
+        "color": "orange",
+        "hobby": "scracth",
+        "ownerID": 102
+    },
+    {
+        "petID": 3,
+        "name": "Rex",
+        "age": 3,
+        "species": "Dog",
+        "color": "golden",
+        "hobby": "run",
+        "ownerID": 103
+    }
+]
