@@ -1,0 +1,28 @@
+body {background-color: lightgreen;}
+
+table {
+  /* border-collapse: collapse; */
+  border: 2px solid ;
+  /* border-spacing: 0; */
+  border-spacing: 2em 12px;
+
+}
+
+
+td,th {  border: 2px solid;
+  border-top: 3px solid red;
+  border-left: 3px solid blue;
+ }
+
+ .linebox{background-color: lightblue;
+   }
+
+ .linebox p{
+   background-color: lightpink;
+   line-height: 100px;
+   /* margin-top:0%; } */
+
+/* p {
+  background-color: lightpink;
+  margin-top:0%;
+} */

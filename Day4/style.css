@@ -1,0 +1,35 @@
+body{background-color: lightblue;
+  height:100vh;
+  background-image: linear-gradient(to bottom right, #000000, rgb(98, 40, 235,0.8));
+ /* background-repeat: no-repeat; */
+}
+
+h1 {
+
+  width:50%;
+  height:50%;
+  background-color: orange;
+  /* font-size:3vh;
+  font-size:3vw; */
+  /* overflow:;
+   */
+
+}
+.box{ background-color: green;
+}
+
+.p1 {
+background-color: pink;
+
+}
+
+
+
+.p2 {
+background-color: purple;
+}
+
+.p1,.p2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
