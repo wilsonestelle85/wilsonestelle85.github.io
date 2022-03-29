@@ -1,0 +1,76 @@
+body{
+  background-color: lightblue;
+  /* height: 100vh; */
+}
+
+/* hero image block CSS */
+.herobox{
+border: 4px solid blue;
+height:400px;
+margin-bottom: 10%;
+position: relative;
+}
+
+.herobox > img {
+ width:100%;
+ height:100%;
+}
+
+
+.smallbox{
+position: absolute;
+top:30%;
+right: 10%;
+color:white;
+background-color: rgba(191, 177, 176,0.8);
+width:60%;
+text-align: center;
+}
+
+
+/* FLEX BOX CSS */
+
+.largebox{
+width:80%;
+height:300px;
+background-color: orange;
+display: flex;
+flex-wrap: wrap;
+/* flex-wrap: wrap;
+flex-direction: row; */
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+align-content:center;
+}
+
+.sub1{
+border: 2px solid black;
+width:23%;
+height: 30%;
+/* flex:;
+align-items: ;
+align-self: ; */
+}
+
+.sub2{
+border: 2px solid black;
+width:100px;
+height: 100px;
+background-color: pink;
+}
+
+.sub3{
+border: 2px solid blue;
+/* width:100px; */
+/* height: 100px; */
+background-color: lightgreen;
+}
+
+.sub4{
+border: 2px solid purple;
+/* width:100px; */
+/* height: 100px; */
+width:10%;
+background-color: red;
+}
