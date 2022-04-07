@@ -1,0 +1,49 @@
+body {
+  background-color: lightblue;
+  padding-top: 30px;
+}
+
+.firstLink {
+  border: 2px solid black;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 30px;
+  color:white;
+  background-color: lightpink;
+  padding: 10px;
+}
+.myModalWindow {
+background-color: rgba(181, 178, 158,0.6);
+position: fixed;
+top:0;
+left:0;
+right:0;
+bottom:0;
+opacity: 0;
+pointer-events: none;
+}
+.myModalWindow:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.msgblock{
+  text-align: center;
+  background-color: white;
+  width:50%;
+  height: 300px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.msgblock > a {
+  border: 2px solid red;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 10px;
+  color:pink;
+  background-color: purple;
+  padding: 4px;
+  margin-left: 10%;
+
+}
