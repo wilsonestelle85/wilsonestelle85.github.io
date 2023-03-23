@@ -1,0 +1,124 @@
+body{background-color: bisque;}
+
+.mainwindowbtn{
+ background-color: aliceblue;
+ border: 3px solid lightcoral;
+ border-radius: 10px;
+ font-size: 12px;
+ padding: 10px;
+ text-decoration: none;
+
+}
+
+
+
+
+.mdlwindow{
+    opacity: 0;
+    background-color: rgba(149, 146, 133, 0.5);
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right: 0;
+    pointer-events: none;
+
+}
+.mdlwindow:target{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+
+
+.mdlwindow div{
+ background-color: rgb(245, 248, 251);
+ width:56%;
+ height: 400px;
+ margin: auto;
+ margin-top: 10%;
+}
+
+
+
+.stage{
+width:60%;
+/* border: 2px solid lightcoral; */
+height: 200px;
+overflow: hidden;
+}
+
+.slidegroup{
+/* border: 2px solid rgb(42, 12, 134); */
+width:400%; /*---*/
+height: 100%;
+animation: slideshow 4s infinite;
+/* margin-left:0%; */
+}
+
+.slidegroup div{
+width:25%;/*---*/
+height: 100%;
+float: left;
+}
+
+.slidegroup div img{
+width:100%;
+height:100%;
+}
+
+@keyframes slideshow {
+   0%{margin-left:0%;}
+   25%{margin-left:-100%;}
+   50%{margin-left:-200%;}
+   75% {margin-left:-300%;}
+   100%{margin-left:-300%;}
+
+}
+
+
+
+.slide:nth-child(1){background-color: aquamarine;
+
+}
+
+
+.slide:nth-child(2){background-image: url(bird.jpg);
+    background-size: 100% 100%;
+
+}
+
+.slide:nth-child(3){background-image: url(bird2.jpg);
+    background-size: 100% 100%;
+
+}
+
+.slide:nth-child(4){background-color: aquamarine;
+    background-size: 100% 100%;
+
+}
+
+
+/* 
+.slide1{background-color: aquamarine;}
+
+.slide2{
+    
+    background-image: url(bird.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.slide3{background-color: rgb(255, 127, 251);}
+.slide4{background-color: rgb(246, 255, 127);}
+ */
+
+
+/* 
+.slide1{background-color: aquamarine;}
+
+.slide2{background-color: rgb(127, 161, 255);}
+.slide3{background-color: rgb(255, 127, 251);}
+.slide4{background-color: rgb(246, 255, 127);} */
