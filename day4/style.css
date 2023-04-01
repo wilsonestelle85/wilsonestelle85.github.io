@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+}
+section{
+    background-color: lightpink;
+    height: 300px;
+}
+section> div {
+    background-color: lawngreen;
+    height:44%;
+}
+.northernlightsimagebox{
+    background-color: rgb(128, 108, 243);
+    height:100%;
+    width:34%;
+    float: left;
+    margin-right:4% ;
+}
+.descriptionbox{
+    background-color: rgb(240, 58, 204);
+    height:100%;
+    width:50%;
+    float: left;
+}
