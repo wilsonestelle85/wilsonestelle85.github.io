@@ -1,0 +1,26 @@
+.ballbox{
+
+border: 10px solid peru;
+
+}
+
+.ballbox div{
+
+    width:2%;
+    animation: moveball 2s infinite alternate-reverse;
+    
+    }
+
+    
+.ballbox div img{
+
+    width:100%;
+    height:100%;
+
+    
+    }
+@keyframes moveball {
+    0%{width:2%; height:100px;margin-left:0%;}
+
+    100%{width:2%; height:100px;margin-left:98%;}
+}
